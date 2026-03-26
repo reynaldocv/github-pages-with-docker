@@ -9,7 +9,7 @@ You’ll find this post in your
 
 
 
-<img src="assets" alt="Alt text for the image" width="400">
+<img src="assets/images/background.jpg" alt="Alt text for the image" width="400">
 
  directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
