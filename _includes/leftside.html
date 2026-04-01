@@ -1,11 +1,38 @@
-<nav class="w3-sidebar w3-bar-block w3-medium w3-hide-small w3-center w3-black">
+<nav class="w3-sidebar w3-bar-block w3-medium w3-hide-small w3-left">
   <!-- Avatar image in top left corner -->
-    <img src="assets/images/reynaldocv.jpg " style="width:80%; padding:40px">
+    <div class="w3-center">
+      <img src="{{ site.baseurl }}/assets/images/reynaldocv.jpg" style="width:40%; padding:10px">
+      <br>
+      <a href="{{ site.baseurl }}/" >
+        <i class="fa fa-github-alt w3-medium"> reynaldocv </i>
+      </a><br>reynaldocv <i class="fa fa-at w3-medium"></i> gmail <i class="fa fa-dot-circle-o w3-medium"></i> com<br>
+      <b>Problem solver</b>
+      <br>      
+      <a target="_blank" href="https://github.com/reynaldocv/" >
+        <i class="fa fa-github w3-medium"> reynaldocv </i>
+      </a><br>  
+
+      <a target="_blank" href="https://www.linkedin.com/in/reynaldocv/" >
+          <i class="fa fa-linkedin w3-medium"> reynaldocv </i>
+      </a><br>
+
+      <a target="_blank" href="https://leetcode.com/reynaldocv" data_alt="leetcode">
+          <i class="fa fa-code w3-medium"> reynaldocv </i>
+      </a> 
+    <br>
+    
+    <br>
+    </div>
+
+   
+
+    
+    
 
     {% assign sorted_sections = site.sections | sort: "sort_by_number" %}
     {% for section in sorted_sections %}     
-    <a href="#{{section.id}}" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa {{section.icon}} w3-large">  {{section.short}}  </i>
+    <a href="#{{section.id}}" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+        <i class="fa fa-caret-right w3-large"> &#9; &#9; &#9; {{section.short}} </i>
     </a>      
     {% endfor %}
 

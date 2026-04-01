@@ -2,7 +2,7 @@
 id: "publications"
 title:  "Publications"
 short: "Publications"
-icon: fa-graduation-cap
+icon: fa-file
 sort_by_number: 4 
 ---
 {% for item in site.data.publications %}  

@@ -14,6 +14,12 @@ Ph.D. & M.Sc. in Computer Science at Institute of Mathematics and Statistics at 
     - Cryptography
     - Cyber-Security 
 
+#### Languages: 
+
+- **Spanish** (native)
+- **English** (intermediate)
+- **Portuguese-Brazil** (advance)
+
 #### Skills: 
 
 - **Cryptography & Data Security**.
@@ -24,8 +30,4 @@ Ph.D. & M.Sc. in Computer Science at Institute of Mathematics and Statistics at 
 - Experience with Windows and Linux.
 - **Regular Contestant** at [leetcode](https://leetcode.com/reynaldocv). 
     
-#### Languages: 
 
-- **Spanish** (native)
-- **English** (intermediate)
-- **Postuguesse** (advance)

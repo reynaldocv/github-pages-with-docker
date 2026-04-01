@@ -1,25 +1,25 @@
 ---
 id: "experience"
 short: "Experience"
-title:  "Experiences"
+title:  "Experience"
 icon: fa-briefcase
 sort_by_number: 3 
 ---
 {% for item in site.data.experiences %}  
-- <table style="border:0px">
+- <table class="table-experience">
     <tr>
       <td> {{item.institution}} 
         (<a href="{{item.institution_url}}">{{item.institution_short}}</a>)
       </td>
-      <td style='text-align:right'>{{item.city}}</td>
+      <td style='text-align:right'><sub>{{item.city}}</sub></td>
     </tr>
     <tr>
-      <td><b>{{item.possition}} </b></td>      
-      <td style='text-align:right'>{{item.start}} - {{item.end}}</td>
+      <td class="w3-lightgray"><b>{{item.possition}} </b></td>      
+      <td style='text-align:right'><sup>{{item.start}} - {{item.end}}</sup></td>
     </tr>
     <tr>      
-      <td colspan='2'>
-        - {{item.description}}
+      <td class="w3-lightgray" colspan='2'>
+      {{item.description}}
       </td>
     </tr>   
   </table>     

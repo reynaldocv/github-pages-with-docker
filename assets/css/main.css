@@ -5,10 +5,9 @@
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {
     width: 300px;
-    background-color: black;
-    text-align: left;
-}    
-
+    background-color:#b4dcf677;
+    text-align: left;    
+}  
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 300px}
 /* Remove margins from "page content" on small screens */
@@ -51,6 +50,38 @@
 
 }
 
-.w3-table-all{
-    border: 0px solid black;
+#profile {
+    width: 100%;
+    text-align: center;
 }
+#profile > img{
+    width: 100%;
+    height: auto;
+}
+
+
+.table-experience > tbody > tr, .table-experience > tbody > tr > td {
+    border: none solid black;    
+    padding: 0px 0px; 
+    margin: -5px; 
+    border: none;
+    background-color: white;
+}
+
+.projects{
+    padding: 10px;
+    min-width: 300px;
+}
+
+.projects > ul > li:nth-child(2){
+    border: 1px solid black;
+    
+}
+
+.footer{
+    
+    position:fixed;
+    bottom: 20px;
+    
+}
+
