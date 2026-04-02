@@ -11,6 +11,8 @@
   thesis: "Attacks and Vulnerabilities on NewHope KEM and small-Ring-LWE problem"
   thesis_url : "https://www.teses.usp.br/teses/disponiveis/45/45134/tde-13122024-193342/en.php"  
   thesis_label: "Thesis:"
+  seminaries_label: "documents and seminaries related"
+  seminaries_link: "eng_course.md"
 
 - degree: "Ing. in Software Engineering and Informatics"
   adviser: "Lauro Enciso"
@@ -25,6 +27,8 @@
   thesis: "Factoring any Integer with Random Bits"
   thesis_url : ""  
   thesis_label: "Thesis:"
+  seminaries_label: "documents and seminaries related"
+  seminaries_link: "eng_course.md"
 
 - degree: "MsC. in Computer Science"
   adviser: "Routo Terada"
@@ -39,6 +43,8 @@
   thesis: "Reconstructing the Secret Key of Multi-Prime RSA Cryptosystem"
   thesis_url : "https://teses.usp.br/teses/disponiveis/45/45134/tde-13082014-141746/en.php"  
   thesis_label: "Dissertation:"
+  seminaries_label: "documents and seminaries related"
+  seminaries_link: "eng_course.md"
 
 - degree: "Bs. in Software Engineering and Informatics"
   adviser: ""

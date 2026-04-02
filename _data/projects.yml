@@ -42,14 +42,14 @@
   software: "Python, Sagemath & Jupyter"
   status: "2022"
 
-- title: "Web-Content-Analysis"
+- title: "Web Content Analysis"
   description: "Software to analyze inappropriate content of a web page. It uses Microsoft Microsoft Azure and Google Cloud services to analyze images and search words and phrases."
   software: "Javascript"
   url: "https://github.com/reynaldocv/Web-Content-Analysis"
   status: "2019"
 
 
-- title: "MAC6929-IoT-parking"
+- title: "IoT parking"
   description: "Prototype software for parking management. This system returns the number of total free parking spaces. Use Machine Learning to know how many free sites there will be in the future."
   software: "Python, Android Studio & Java"
   url: "https://github.com/reynaldocv/MAC6929-IoT-parking"

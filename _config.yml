@@ -44,3 +44,7 @@ plugins:
 collections:
   sections:
     output: true
+
+collections:
+  seminaries:
+    output: true

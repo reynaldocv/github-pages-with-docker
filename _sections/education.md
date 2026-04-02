@@ -23,5 +23,17 @@ sort_by_number: 1
       <td style='text-align:right'><sub><b>{{item.adviser_label}}</b> 
       <a href="{{item.adviser_url}}">{{item.adviser}}</a></sub></td>
     </tr>   
+    <tr>
+      <td colspan='2'>
+      {% if item.seminaries_label %}
+        <sub>        
+        <a href="https:/{{ site.url }}/eng_course/.md">
+        <i class="fa fa-file-o"> {{item.seminaries_label}} </i>
+        </a>
+        </sub>
+      {% endif %}
+      </td>
+    </tr>  
   </table>     
+  
 {% endfor %}
