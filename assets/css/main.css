@@ -86,9 +86,10 @@
 }
 
 .download{
+    color: black;
     font-size: medium;
     font-weight: bolder;
-    background-color: white;
+    background-color:lightgreen;
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
 }
